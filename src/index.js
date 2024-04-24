@@ -12,6 +12,8 @@ import Tshirt from './pages/T-shirt';
 import Outerwear from './pages/Outerwear';
 import Pants from './pages/Pants';
 import Accecories from './pages/Accecories';
+import Profile from './pages/Profile';
+import Cart from './pages/Cart';
 
 export default function App() {
   return (
@@ -23,6 +25,8 @@ export default function App() {
           <Route path="outerwear" element={<Outerwear />} />
           <Route path="pants" element={<Pants />} />
           <Route path="accecories" element={<Accecories />} />
+          <Route path="profile" element={<Profile />} />
+          <Route path="cart" element={<Cart />} />
         </Route>
       </Routes>
     </BrowserRouter>

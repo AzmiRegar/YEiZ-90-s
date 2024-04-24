@@ -16,8 +16,90 @@ code {
   background-color: #555F61;
   height: 33px;
 }
-
 .slogan {
-  font-size:large;
+  height: 175px;
+  font-size: large;
   margin-top: 5px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.bg-ijo  {
+  background-color: rgba(17, 81, 94, 0.15);
+  height: 150px;
+  top: 300px;
+};
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.oval-button {
+  background-color: rgba(17, 81, 94, 0.45);
+  border: none;
+  color: 555F61;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px; /* Increased border-radius for a wider oval shape */
+  margin: 10px;
+  cursor: pointer;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container img {
+  height: 300px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+.search-input {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding: 5px;
+  width: 200px;
+  height: 36px;
+}
+
+.search-input-field {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+  border-radius: 30px;
+  padding: 0 10px;
+  height: 36px;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-input-field::placeholder {
+  color: #999;
+}
+
+.search-input-field:focus {
+  box-shadow: none;
+}
+
+.bi-search {
+  fill: #333;
 }
