@@ -63,13 +63,6 @@ code {
 }
 
 
-
-
-
-
-
-
-
 .search-input {
   display: flex;
   align-items: center;
@@ -102,4 +95,29 @@ code {
 
 .bi-search {
   fill: #333;
+}
+
+.judul{
+  position: absolute;
+  color:black;
+  text-align: center;
+  left: 410px;
+  top: 40px
+
+}
+
+.tampilan{
+  position:relative;
+}
+
+.bg{
+  background-color: #ffffff;
+  position: absolute;
+  width: 219vh;
+  height: 95vh  
+
+}
+
+.img{
+  border-radius: 10px;
 }

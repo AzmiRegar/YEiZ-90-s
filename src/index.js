@@ -14,6 +14,7 @@ import Pants from './pages/Pants';
 import Accecories from './pages/Accecories';
 import Profile from './pages/Profile';
 import Cart from './pages/Cart';
+import Login from './pages/Login';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="accecories" element={<Accecories />} />
           <Route path="profile" element={<Profile />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>

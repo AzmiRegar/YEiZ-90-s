@@ -57,8 +57,9 @@ const Layout = () => {
                         <li className="nav-item">
                             <Link to="/accecories" className="nav-link">Accecories</Link>
                         </li>
+                        
                     </ul>
-                    <div className="col-6 text-center">
+                    <div className="col-7 text-center">
                         <img src={logo} alt="logo" />
                         <img src={logo1} alt="logo" />
                     </div>
@@ -68,7 +69,7 @@ const Layout = () => {
                     <SearchInput />
                 </div>
                 <div>
-                    <Link to="/profile">    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="555F61" class="bi bi-person" viewBox="0 0 16 16" style={{ marginRight: '20px' }}>
+                    <Link to="/Login">    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="555F61" class="bi bi-person" viewBox="0 0 16 16" style={{ marginRight: '20px' }}>
                         <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
                     </svg> </Link>
                     <Link to="/cart"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="555F61" class="bi bi-cart2" viewBox="0 0 16 16" style={{ marginRight: '20px' }}>

@@ -1,7 +1,14 @@
+import React from 'react';
+import { Outlet, Link } from "react-router-dom";
+
 const Profile = () => {
-    return <div className="container">
-        Coming Soon!!
-    </div>
+    return (
+        <>
+            <div>
+                cooming soon
+            </div>
+        </>
+    )
 }
 
 export default Profile;
