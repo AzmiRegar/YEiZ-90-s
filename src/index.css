@@ -121,3 +121,28 @@ code {
 .img{
   border-radius: 10px;
 }
+
+.judulP{
+  color: #555F61;
+  font-size: 20px;
+}
+.hargaP{
+  color: #555F61;
+  font-size: 12px;
+}
+.cardP {
+  padding: 20px;
+  width: 370px; /* panjang card */
+  height: 370px; /* lebar card */
+  background-color: rgba(17, 81, 94, 0.15);
+  border-radius: 50px; /* membuat sisi card menjadi oval */ 
+  padding: 20px; /* padding dalam card */
+}
+.card-image{
+  width: 350px; /* panjang card */
+  height: 245px; /* lebar card */
+  background-color: #11515E; /* warna background card */
+  border-radius: 40px; /* membuat sisi card menjadi oval */
+  opacity: 0.3; /* opasitas warna 10% */
+  padding: 20px; /* padding dalam card */
+}

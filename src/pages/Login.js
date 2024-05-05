@@ -18,7 +18,7 @@ class Login extends Component {
             email: this.state.email,
             password: this.state.password
         }
-        let url = "http://localhost:8000/auth"
+        let url = "http://localhost:2024/login"
         axios.post(url, data)
             .then(response => {
                 this.setState({ statusLogin: response.data.logged })
